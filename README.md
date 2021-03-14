@@ -1,4 +1,4 @@
-# Molecular_Translation
+# Molecular Translation
 
 ### 1. Data File Generation
 ```powershell

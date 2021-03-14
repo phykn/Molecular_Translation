@@ -8,7 +8,7 @@ python data_generator.py [CID-SMILES file name] [Data Size]
 **Example**
 
 ```powershell
-python data_generator.py CID-SMILES-TEST 100
+python data_generator.py CID-SMILES-TEST 10
 ```
 
 **CID-SMILES File Download:** https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SID.gz 

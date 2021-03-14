@@ -85,7 +85,7 @@ def generate_data(SMILES, max_image_size=300, padding=20):
 def GenSingleData(SMILES, max_image_size=300, padding=20, image_folder='/'):
     now = datetime.datetime.now().timestamp()
     now = str(now).replace('.', '')
-    file_name = now + '.png'
+    file_name = now + str(random.random())[3:7] + '.png'
     image_path = os.path.join(image_folder, file_name)
 
     SMILES, InChI, img = generate_data(SMILES, max_image_size=max_image_size, padding=padding)

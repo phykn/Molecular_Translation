@@ -2,7 +2,7 @@
 
 ### 1. Data File Generation
 ```powershell
-python data_generator.py [CID-SMILES file name] [Data Size]
+python data_generator.py [CID-SMILES file name] [Data Number]
 ```
 
 **Example**
